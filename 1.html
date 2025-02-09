@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css 1</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    body {
+      /* Use flexbox to center content */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+    }
+    .top {
+      width: 40%;
+      margin: 10px;
+      height: 30vh;
+      background-color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-radius: 5px;
+      position: relative;
+      padding-top: 30px;
+    }
+    .top h1 {
+      padding: 20px;
+      background-color: rgb(233, 52, 158);
+      margin: 0;
+      text-align: center;
+      font-weight: bolder;
+      width: 70%;
+      border-radius: 5px;
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .top p {
+      padding: 30px;
+      font-size: larger;
+    }
+  </style>
+</head>
+<body>
+  <div class="top">
+    <h1>An otter Essay</h1>
+    <p>Otters have long, slim bodies and relatively short limbs. Their most striking 
+      anatomical features are the powerful webbed feet used to swim, and their seal-like
+      abilities holding breath underwater
+    </p>
+  </div>
+</body>
+</html>
